@@ -1,7 +1,9 @@
+@import './variables.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply text-[#e7e1e6] font-secondary bg-black;
+  @apply text-primary-text font-secondary bg-background;
 }
