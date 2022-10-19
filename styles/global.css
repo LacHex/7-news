@@ -5,5 +5,28 @@
 @tailwind utilities;
 
 body {
-  @apply text-primary-text font-secondary bg-background;
+  @apply
+    font-secondary
+    text-secondary-text
+    bg-background
+    selection:text-on-secondary-container
+    selection:bg-secondary-container;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@screen sm {
+  ::-webkit-scrollbar {
+    @apply w-4 h-4;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply
+      border-4
+      border-solid
+      border-transparent
+      rounded-sm
+      bg-clip-padding
+      bg-scrollbar-thumb
+      hover:bg-scrollbar-thumb-hover;
+  }
 }
