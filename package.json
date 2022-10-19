@@ -1,6 +1,7 @@
 {
   "name": "channel-7-news-practice",
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
