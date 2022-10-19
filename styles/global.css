@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 body {
-  @apply
-    font-secondary
+  @apply font-secondary
     text-secondary-text
-    bg-background
+    bg-neutral-variant-95
+    dark:bg-neutral-variant-5
     selection:text-on-secondary-container
     selection:bg-secondary-container;
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @screen sm {
@@ -20,8 +20,7 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply
-      border-4
+    @apply border-4
       border-solid
       border-transparent
       rounded-sm

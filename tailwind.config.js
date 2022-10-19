@@ -13,6 +13,7 @@ module.exports = {
   future: {
     hoverOnlyWhenSupported: true
   },
+  darkMode: 'class',
   theme: {
     fontFamily: {
       primary: '"Poppins", sans-serif',
