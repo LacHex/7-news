@@ -16,3 +16,4 @@ This is the source code for the Channel 7 News web app.
 | `build:start` | Build then serve the app from the `.next` directory. |
 | `start`       | Serve the app from the `.next` directory.            |
 | `lint`        | Check for linting warnings and errors with ESLint.   |
+| `format`      | Format with Prettier.                                |

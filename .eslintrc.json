@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // See https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
+    "react/display-name": "warn",
+
+    // See https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin/docs/rules#supported-rules
+    "@typescript-eslint/explicit-member-accessibility": [
+      "warn",
+      {
+        "accessibility": "no-public"
+      }
+    ],
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "warn",
+      { "allowExpressions": true }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
+
+    // See https://eslint.org/docs/rules
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "max-len": [
+      "warn",
+      {
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreUrls": true
+      }
+    ],
+    "line-comment-position": ["warn", { "position": "above" }],
+    "spaced-comment": "warn",
+    "prettier/prettier": "warn"
+  }
+}
