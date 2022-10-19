@@ -1,11 +1,13 @@
 import type { NextPage } from 'next'
-import styles from '@styles/HomePage.module.css'
 
 const HomePage: NextPage = () => {
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>
-        Welcome to <span className={styles.gradient}>7 News</span>
+    <main className="grid place-content-center min-h-screen py-16">
+      <h1 className="text-6xl font-medium">
+        Welcome to{' '}
+        <span className="text-transparent bg-clip-text text-red-600">
+          7 News
+        </span>
       </h1>
     </main>
   )

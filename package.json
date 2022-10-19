@@ -21,10 +21,12 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "12.3.1",
+    "@thedutchcoder/postcss-rem-to-px": "0.0.2",
     "@types/node": "18.11.0",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.40.1",
+    "autoprefixer": "10.4.12",
     "cross-env": "7.0.3",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
@@ -32,6 +34,11 @@
     "eslint-plugin-prettier": "4.2.1",
     "next-pwa": "5.6.0",
     "npm-check-updates": "16.3.13",
+    "postcss": "^8.4.18",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-nesting": "^10.2.0",
+    "postcss-preset-env": "7.8.2",
+    "tailwindcss": "3.1.8",
     "typescript": "4.8.4"
   }
 }
