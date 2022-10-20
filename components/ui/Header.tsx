@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logoImage from 'public/images/logo.png'
+import logoImage from 'public/images/logo.webp'
 import { LightModeIcon, DarkModeIcon } from '@components/icons'
 import { useTheme } from 'next-themes'
 import { useMounted } from '@lib/hooks'
@@ -17,7 +17,13 @@ const Header = (): JSX.Element => {
   return (
     <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-neutral-variant-90 dark:bg-neutral-variant-10">
       <div className="mt-2">
-        <Image alt="7 News logo" width="100" height="28" src={logoImage} />
+        <Image
+          alt="Logo"
+          layout="fixed"
+          width={100}
+          height={28}
+          src={logoImage}
+        />
       </div>
       {isMounted && (
         <button
