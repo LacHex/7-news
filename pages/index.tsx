@@ -2,22 +2,6 @@ import type { NextPage } from 'next'
 import articles from 'content/articles.json'
 import { ArticleCard } from '@components/ui'
 
-interface Article {
-  headline: string
-  source: string
-  byline: string
-  publicationDate: string
-  blocks: Array<{
-    kind: 'text' | 'image' | 'pull-quote'
-    text: string
-    intentions?: Array<{
-      kind: 'emphasized' | 'important'
-      index: number
-      length: number
-    }>
-  }>
-}
-
 const renderContent = (): JSX.Element => {
   return (
     <>
@@ -26,7 +10,7 @@ const renderContent = (): JSX.Element => {
       </h1>
       <h2 className="text-lg mb-8">Trending articles</h2>
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
-        {(articles as Array<Article>).map((article, index) => (
+        {articles.map((article, index) => (
           <ArticleCard key={index} id={index + 1} {...article} />
         ))}
       </div>
