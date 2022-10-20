@@ -21,7 +21,7 @@ interface Article {
 const renderContent = (): JSX.Element => {
   return (
     <>
-      <h1 className="text-primary-text text-4xl font-medium mt-16 mb-4 sm:text-5xl md:text-6xl">
+      <h1 className="text-primary-text text-4xl font-primary font-medium mt-16 mb-4 sm:text-5xl md:text-6xl">
         Local news
       </h1>
       <h2 className="text-lg mb-8">Trending articles</h2>

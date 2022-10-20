@@ -25,7 +25,7 @@ const ArticleCard = ({
         <div className="text-secondary-text text-sm mb-2">
           {source} • {byline}
         </div>
-        <h3 className="text-primary-text text-2xl mb-4 transition-[color] group-hover:text-primary group-focus:text-primary">
+        <h3 className="text-primary-text text-2xl font-primary mb-4 transition-[color] group-hover:text-primary group-focus:text-primary">
           {headline}
         </h3>
         <div className="text-secondary-text text-sm">{timeAgo}</div>
