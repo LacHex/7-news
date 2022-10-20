@@ -15,7 +15,7 @@ const Header = (): JSX.Element => {
   }
 
   return (
-    <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-neutral-variant-90 dark:bg-neutral-variant-10">
+    <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-surface-2 dark:bg-neutral-10">
       <div className="mt-2">
         <Image
           alt="Logo"
@@ -27,7 +27,7 @@ const Header = (): JSX.Element => {
       </div>
       {isMounted && (
         <button
-          className="text-on-surface grid place-items-center rounded-full w-12 h-12 hover:bg-neutral-variant-80 dark:hover:bg-neutral-variant-20"
+          className="text-on-surface hover:text-on-secondary-container grid place-items-center rounded-full w-12 h-12 transition-[color,_background-color] hover:bg-neutral-variant-85 dark:hover:bg-neutral-variant-15"
           aria-label={`Switch to ${theme} mode`}
           onClick={toggleThemeMode}
         >
