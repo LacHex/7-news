@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import logoImage from 'public/images/logo.webp'
 import { LightModeIcon, DarkModeIcon } from '@components/icons'
@@ -17,13 +18,17 @@ const Header = (): JSX.Element => {
   return (
     <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-surface-2 dark:bg-neutral-10">
       <div className="mt-2">
-        <Image
-          alt="Logo"
-          layout="fixed"
-          width={100}
-          height={28}
-          src={logoImage}
-        />
+        <Link href="/" passHref>
+          <a>
+            <Image
+              alt="Logo"
+              layout="fixed"
+              width={100}
+              height={28}
+              src={logoImage}
+            />
+          </a>
+        </Link>
       </div>
       {isMounted && (
         <button
