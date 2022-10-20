@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import { Head, Providers } from '@components/common'
+import { Header } from '@components/ui'
 import '@styles/global.css'
 
 const NewsApp = ({ Component, pageProps }: AppProps): JSX.Element => {
@@ -7,6 +8,7 @@ const NewsApp = ({ Component, pageProps }: AppProps): JSX.Element => {
     <>
       <Head />
       <Providers>
+        <Header />
         <Component {...pageProps} />
       </Providers>
     </>

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import articles from 'content/articles.json'
-import { Header, ArticleCard } from '@components/ui'
+import { ArticleCard } from '@components/ui'
 
 interface Article {
   headline: string
@@ -52,7 +52,6 @@ const HomePage: NextPage = () => {
 
   return (
     <>
-      <Header />
       <main className="mx-6 md:mx-10">
         <div className="grid place-content-center m-auto max-w-[1280px] min-h-screen py-16">
           {articlesExist ? renderContent() : renderFallback()}
