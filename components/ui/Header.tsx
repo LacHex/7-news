@@ -16,7 +16,7 @@ const Header = (): JSX.Element => {
   }
 
   return (
-    <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-surface-2 dark:bg-neutral-10">
+    <header className="fixed top-0 h-16 w-full flex items-center justify-between px-3 bg-surface-2 dark:bg-neutral-10 z-20">
       <div className="mt-2">
         <Link href="/" passHref>
           <a>
