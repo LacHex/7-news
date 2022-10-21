@@ -3,7 +3,7 @@
     "headline": "Vestibulum at eros lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "source": "The West Australian",
     "byline": "Michelanjelo Michael",
-    "publicationDate": "2020-09-01T01:00:00.000Z",
+    "publicationDate": "2022-10-16T01:00:00.000Z",
     "blocks": [
       {
         "kind": "text",
@@ -59,10 +59,10 @@
     ]
   },
   {
-    "headline": "Suspendisse vitae volutpat sem, eu dapibus magna",
+    "headline": "Local man gets the job!",
     "source": "7 News",
     "byline": "Lachlan Hender",
-    "publicationDate": "2022-09-01T01:00:00.000Z",
+    "publicationDate": "2023-10-22T01:00:00.000Z",
     "blocks": [
       {
         "kind": "text",
@@ -70,12 +70,12 @@
         "intentions": [
           {
             "kind": "emphasized",
-            "index": 0,
-            "length": 11
+            "index": 7,
+            "length": 20
           },
           {
             "kind": "important",
-            "index": 28,
+            "index": 50,
             "length": 27
           }
         ]
@@ -88,7 +88,7 @@
       {
         "kind": "image",
         "captionText": "Cras mattis consectetur purus sit amet fermentum.",
-        "url": "https://images.thewest.com.au/publication/B88945448Z/1536132433649_GKR1Q2DJF.2-1.jpg"
+        "url": "https://images.thewest.com.au/publication/C-8609087/beae2f5a21cba2b07b975509bf1f12bca5d17262-16x9-x0y0w4000h2250.jpg"
       },
       {
         "kind": "text",
@@ -121,7 +121,7 @@
     "headline": "Nam semper eros ut nulla bibendum, quis condimentum neque viverra",
     "source": "ABC News",
     "byline": "Mark Lilly",
-    "publicationDate": "2023-09-01T01:00:00.000Z",
+    "publicationDate": "2022-10-21T01:00:00.000Z",
     "blocks": [
       {
         "kind": "text",
@@ -147,7 +147,7 @@
       {
         "kind": "image",
         "captionText": "Cras mattis consectetur purus sit amet fermentum.",
-        "url": "https://images.thewest.com.au/publication/B88945448Z/1536132433649_GKR1Q2DJF.2-1.jpg"
+        "url": "https://images.thewest.com.au/publication/C-8604550/baaa40d3b6b1a0147e11ad6bd326fafd0767327e-16x9-x0y0w3840h2160.jpg"
       },
       {
         "kind": "text",
@@ -180,7 +180,7 @@
     "headline": "Phasellus ullamcorper ultrices nibh nec semper",
     "source": "9 News",
     "byline": "Satya Vaswani",
-    "publicationDate": "2022-09-30T01:00:00.000Z",
+    "publicationDate": "2022-10-17T01:00:00.000Z",
     "blocks": [
       {
         "kind": "text",
@@ -206,7 +206,7 @@
       {
         "kind": "image",
         "captionText": "Cras mattis consectetur purus sit amet fermentum.",
-        "url": "https://images.thewest.com.au/publication/B88945448Z/1536132433649_GKR1Q2DJF.2-1.jpg"
+        "url": "https://images.thewest.com.au/publication/C-8604165/4093edb26393f42f66a26c5a4c45434519fa7161-16x9-x1y0w2446h1376.jpg"
       },
       {
         "kind": "text",
