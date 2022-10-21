@@ -3,7 +3,10 @@ const runtimeCaching = require('next-pwa/cache');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   swcMinify: true,
-  reactStrictMode: true
+  reactStrictMode: true,
+  images: {
+    domains: ['images.thewest.com.au']
+  }
 };
 
 module.exports = nextConfig;
